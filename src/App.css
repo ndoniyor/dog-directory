@@ -1,0 +1,107 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+img{
+  width: 200px;
+  height: auto;
+}
+
+.App{
+  width: 100%;
+  display: flex;
+}
+
+.exclusionList, .historyContainer{
+  color: black;
+  border-radius: 20px;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  width: 30%;
+}
+
+.exclusionList{
+  max-height: 600px;
+}
+
+.mainContainer{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  padding: 10px;
+  border-radius: 20px;
+  background-color:beige;
+  max-height: 925px;
+}
+
+button{
+  margin: 5px;
+}
+
+.inclusionList{
+  padding: 10px;
+  width: 75%;
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75vw;
+}
+
+.historyImg{
+  padding-bottom: 10px;
+  max-width: 75%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.mainImg{
+  width: auto;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
